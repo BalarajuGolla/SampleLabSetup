@@ -1,5 +1,5 @@
  resource "aws_instance" "sm-project-web-server"
-   ami               = "ami-0c1a7f89451184c8b"
+   ami               = "ami-0a23ccb2cdd9286bb"
    instance_type     = "t2.nano"
    key_name          = "demo"
 
