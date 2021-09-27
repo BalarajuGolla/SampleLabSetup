@@ -9,7 +9,3 @@ output "server_id" {
 output "web-server-nic" {
   value = aws_network_interface.web-server-nic.id
 }
-
-output "aws_s3_bucket" {
-  value = aws_s3_bucket.b.id
-}
