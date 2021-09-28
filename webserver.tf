@@ -5,8 +5,7 @@
    network_interface {
      device_index         = 0
      network_interface_id = aws_network_interface.web-server-nic.id
-   }
-
+ }
    user_data = <<-EOF
       #!/bin/bash
                  sudo apt update -y
