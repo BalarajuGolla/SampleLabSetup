@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage ("checkout from GIT") {
             steps {
-                git branch: 'main', credentialsId: '074ab43a-0860-4fc9-9565-1b3f72b0c212', url: 'https://github.com/BalarajuGolla/SampleLabSetup/'
+                git branch: 'main', credentialsId: 'iac_git_hub', url: 'https://github.com/BalarajuGolla/SampleLabSetup'
             }
         }
         stage ("terraform init") {
