@@ -1,4 +1,4 @@
-output "server_id" {
+output "server-id" {
   value = aws_instance.sm-project-web-server.id
 }
 
